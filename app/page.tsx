@@ -126,7 +126,7 @@ export default function Home() {
                   speed.
                 </p>
                 <div className="flex gap-2">
-                  <Link href="https://x.com/sumxnn" target="_blank">
+                  <Link href="https://x.com/sumxnnn" target="_blank">
                     <Button size="icon" variant="secondary">
                       <FaXTwitter />
                     </Button>
