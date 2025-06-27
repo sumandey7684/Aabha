@@ -16,9 +16,8 @@ import { Button } from "@/components/ui/button";
 import { ArrowLeft, Copy, Download, GithubIcon, Trash2 } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ModeToggle } from "@/components/mode-toggle";
-
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { prism } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { oneDark } from "react-syntax-highlighter/dist/esm/styles/prism";
 import Link from "next/link";
 import {
   Dialog,
@@ -120,9 +119,11 @@ export default function Home() {
               <div className="flex flex-col gap-4 p-4 lg:p-8">
                 <h1 className="text-2xl font-semibold">Aabha</h1>
                 <p className="text-sm text-muted-foreground">
-                Easily extract color codes from any image and convert them into multiple formats such as HEX, RGB, HSL, and more.
-                Whether you're a designer, developer, or just exploring colors,
-                our tool helps you capture and transform colors with accuracy and speed.
+                  Easily extract color codes from any image and convert them
+                  into multiple formats such as HEX, RGB, HSL, and more. Whether
+                  you're a designer, developer, or just exploring colors, our
+                  tool helps you capture and transform colors with accuracy and
+                  speed.
                 </p>
                 <div className="flex gap-2">
                   <Link href="https://x.com/sumxnn" target="_blank">
@@ -130,10 +131,7 @@ export default function Home() {
                       <FaXTwitter />
                     </Button>
                   </Link>
-                  <Link
-                    href="https://github.com/sumandey7684/"
-                    target="_blank"
-                  >
+                  <Link href="https://github.com/sumandey7684/" target="_blank">
                     <Button size="icon" variant="secondary">
                       <FaGithub />
                     </Button>
@@ -310,8 +308,6 @@ export default function Home() {
                           <Trash2 className="h-4 w-4" />
                           discard
                         </Button>
-
-                        
                       </div>
                     </div>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 p-4 lg:p-8">
